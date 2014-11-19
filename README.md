@@ -5,6 +5,7 @@ jQuery swipe on touch
 
 This Plugin allows you to send a swiping from a touch interface as known as touch to punch.
 
+```JavaScript
 	jQuery('#da-slider').swipe_on_touch({
 		right : function() {
 			jQuery('.da-arrows-next').click();
@@ -13,3 +14,4 @@ This Plugin allows you to send a swiping from a touch interface as known as touc
 			jQuery('.da-arrows-prev').click();
 		}
 	});
+```
