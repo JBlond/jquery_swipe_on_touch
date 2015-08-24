@@ -8,7 +8,7 @@
 			$this.on('touchstart', touch_init_gesture);
 
 			function touch_init_gesture() {
-				if (event.touches.length == 1) {
+				if (event.touches.length === 1) {
 					touch_init = event.touches[0].pageX;
 					is_touching = true;
 					$this.on('touchmove', gesture);
